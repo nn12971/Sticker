@@ -6,8 +6,8 @@ body{
     padding: 0;
 }
 li{
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 15%;
+    
+    
 }
 ul{
     display: flex;
@@ -18,32 +18,83 @@ ul{
     font-size: 2vw;
     align-items: center;
     text-align: center;
+    
 }
-.nav{
+a{
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+}
+.black{
+    color: #000;
+}
+.Sign-In-txt{
+    
+}
+.Sign-In-Box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.Other-Box{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 85%;
+    margin: auto;
+    border-radius: 5%;
+}
+.sign-background{
+    background-color: darkorange;
+    border-bottom-style: solid;
+    border-color: rgb(94, 94, 94);
+
+}
+.continue-bttn{
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10%;
+}
+h4{
+    margin-top: 10%;
+    margin-bottom: 10%;
     
 }
 .logo{
-    
     display: flex;
-    flex-flow: row nowrap;
-    background-size: cover;
-    background-position: 35% 110%;
-    background-image: url(Pictures/TucanLogo.gif) ;
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    object-position: 50% 50%;
     
-     
+}
+.logo2{
+    display: flex;
+    width: 10%; 
+    object-fit: contain;
+    margin: auto;
+}
+.searchbardiv{
+    margin-right: 10%;
+}
+.searchbar{
+    width: 150%;
 }
 
-#logoboarder{
-    
-    background-color: white;
-    padding-left: 10;
-    border-radius: 50%;
-    width: 5%;
-    height: 5%;
-    overflow:hidden;
+.navbrdr{
+    background-color: rgb(27, 27, 27);
+    width: auto;
 }
+
 .header{
     display: flex;
-    justify-self: center;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
     align-items: center;
 }
