@@ -126,8 +126,8 @@ h5{
 }
 .logo{
     
-    width: 100px; 
-    height: 100px; 
+    width: 10vw; 
+    height: 13vh;
     object-fit: cover;
     object-position: 50% 50%;
     
@@ -146,13 +146,22 @@ h5{
     display: flex;
 }
 .navbrdr{
-    background-color: rgb(255, 106, 0);
+    background-color: rgb(68, 68, 68);
     border-color: #000;
     border-style: solid;
     border-radius: 10px;
     color: #000;
     margin-left: 2%;
     width: auto;
+    color: rgb(216, 216, 216);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.navbrdr:hover{
+    background-color: rgb(49, 49, 49);
+}
+.navbrdr:active{
+    background-color: rgb(34, 34, 34);
 }
 .header{
     display: flex;
@@ -166,6 +175,7 @@ h5{
     align-items: center;
     justify-content: center;
 }
+
 
 .Home-body{
     display: flex;
@@ -190,4 +200,7 @@ table{
     width: 80%;
     border-spacing: 10px;
 }
-td
+td{
+    border-radius: 10px;
+}
+
