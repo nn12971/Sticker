@@ -183,3 +183,11 @@ td{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.Grid-Sticker{
+    width: 90%;
+}
+table{
+    width: 80%;
+    border-spacing: 10px;
+}
+td
