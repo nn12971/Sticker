@@ -125,13 +125,25 @@ h5{
     border-radius: 25px;
 }
 .logo{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-left: -40%;
+    margin-top: -50%;
     
-    width: 10vw; 
-    height: 13vh;
-    object-fit: cover;
-    object-position: 50% 50%;
     
-    
+}
+.NameText{
+    text-align: center;
+    font-style: italic;
+}
+.search{
+    padding-bottom: 5%;
+}
+.logobrdr{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
 }
 .logo2{
     display: flex;
@@ -186,6 +198,8 @@ h5{
 }
 td{
     background-color: white;
+    border-color: rgb(184, 184, 184);
+    border-style: solid;
     font-size: 120%;
     text-align: center;
     padding-right: 2%;
@@ -196,11 +210,23 @@ td{
 .Grid-Sticker{
     width: 90%;
 }
+td:active{
+    background-color: rgb(216, 216, 216);
+}
 table{
     width: 80%;
     border-spacing: 10px;
 }
 td{
     border-radius: 10px;
+}
+.StickerText{
+    color: black;
+    display: inline-block;
+}
+.StickerBrdr{
+    border-color: white;
+    border-bottom: rgb(184, 184, 184);
+    border-style: solid;
 }
 
