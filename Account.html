@@ -3,6 +3,12 @@
 <head>
     <title>Account</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .dark-mode {
+  background-color: #00000077;
+  color: white;
+}
+    </style>
 </head>
 <body class="grey">
     <div class="navBackground">
@@ -23,7 +29,7 @@
 
             <div class="searchbardiv">
                 <h1 class="NameText">
-                    My Account
+                    Account Settings
                 </h1>
                 <form action="text" class="search">
                     <input type="text" class="searchbar" size="80">
@@ -73,5 +79,43 @@
         </div>
     </div>
     <br>
+    <div class="Account-flex">
+        <div>
+            <a href="sorry.html">
+                <div class="Profile-Border">
+                    <img src="Pictures/no-profile-picture-15257.png" alt="Profile Picture" class="Profile-Picture">
+                </div>
+            </a>
+        </div>
+        <div>
+            <button onclick="myFunction()" class="Button1">
+                Dark Mode
+            </button>
+            <br><br>
+            <a href="sorry.html">
+                <button  class="Button2">
+                    Change Info
+                </button>
+            </a>
+            <br><br>
+            <a href="sorry.html">
+                <button class="Button3">
+                    Help
+                </button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div class="To-Stickers">
+        <h2>
+            Manage Stickers
+        </h2>
+    </div>
+    <script>
+        function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+    </script>
 </body>
 </html>
